@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="28" height="48" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Ground" tilewidth="16" tileheight="16">
+  <image source="tilea2.png" width="512" height="384"/>
+  <terraintypes>
+   <terrain name="tower_base" tile="-1"/>
+   <terrain name="large_tower_base" tile="-1"/>
+  </terraintypes>
+  <tile id="8" terrain="0,0,0,0"/>
+  <tile id="9" terrain="0,0,0,0"/>
+  <tile id="10" terrain="0,0,0,0"/>
+  <tile id="11" terrain="0,0,0,0"/>
+  <tile id="40" terrain="0,0,0,0"/>
+  <tile id="41" terrain="0,0,0,0"/>
+  <tile id="42" terrain="0,0,0,0"/>
+  <tile id="43" terrain="0,0,0,0"/>
+  <tile id="72" terrain="1,1,1,1"/>
+  <tile id="73" terrain="1,1,1,1"/>
+  <tile id="74" terrain="1,1,1,1"/>
+  <tile id="75" terrain="1,1,1,1"/>
+  <tile id="104" terrain="1,1,1,1"/>
+  <tile id="105" terrain="1,1,1,1"/>
+  <tile id="106" terrain="1,1,1,1"/>
+  <tile id="107" terrain="1,1,1,1"/>
+  <tile id="136" terrain="1,1,1,1"/>
+  <tile id="137" terrain="1,1,1,1"/>
+  <tile id="138" terrain="1,1,1,1"/>
+  <tile id="139" terrain="1,1,1,1"/>
+  <tile id="168" terrain="1,1,1,1"/>
+  <tile id="169" terrain="1,1,1,1"/>
+  <tile id="170" terrain="1,1,1,1"/>
+  <tile id="171" terrain="1,1,1,1"/>
+ </tileset>
+ <tileset firstgid="769" name="Ground2" tilewidth="16" tileheight="16">
+  <image source="tilea4.png" width="512" height="480"/>
+ </tileset>
+ <layer name="grass" width="28" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2CsOACAMRMHejd7/TBhUQz+C0IpHMqJidz0qIjqYfS+6vDvbq+Q799bh3dleJQ8AAAAAADDJ7/8Q23HrjPYq+c69imhvog3mLFQA
+  </data>
+ </layer>
+ <layer name="walls" width="28" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENgDAMBMBIWYBJYJTUDMUowIpxQQcFTSyE7qSvX3LzLgWAr1jrPaP7MmX0Zd4PAHhnik1uV5bkfd5+3rdH3xE5I7PfB+BRB9YnCEI=
+  </data>
+ </layer>
+ <layer name="tower_areas" width="28" height="48">
+  <data encoding="base64" compression="zlib">
+   eJzt2LkNgDAMRuH0sAkswrEIxyIQFuEYkj8dlaUkDZHeJ73ChT2Anfu3TvVqUGPmrUrVxhxMalaLWhP2vxrVGnOwqV15dSTsxzrVpW71ZN4CAAAAAAAoAf8lez9Waf+lF4UeEsE=
+  </data>
+ </layer>
+</map>
